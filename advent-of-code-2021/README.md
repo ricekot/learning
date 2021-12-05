@@ -12,3 +12,9 @@ or
 ```bash
 g++ day-3/part-2.cpp && ./a.out day-3/input.txt
 ```
+or
+```bash
+python day-4/part-1.py day-4/input.txt
+```
+
+depending on the programming language the solution is written in.
