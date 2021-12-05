@@ -8,3 +8,7 @@ From this directory,
 ```bash
 perl day-1/part-2.pl day-1/input.txt
 ```
+or
+```bash
+g++ day-3/part-2.cpp && ./a.out day-3/input.txt
+```
