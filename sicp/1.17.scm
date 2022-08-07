@@ -1,0 +1,8 @@
+(define (double n)
+  (+ n n))
+(define (halve n)
+  (/ n 2))
+(define (fast-multiply a b)
+  (cond ((= b 0) 0)
+    ((even? b) (double (fast-multiply a (halve b))))
+    (else (+ a (fast-multiply a (- b 1))))))
