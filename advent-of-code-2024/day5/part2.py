@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 
 if len(sys.argv) != 2:
-    print("Usage: python part1.py input.txt")
+    print("Usage: python part2.py input.txt")
     sys.exit(1)
 
 input_file = Path(sys.argv[1])
